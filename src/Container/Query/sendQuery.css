@@ -1,0 +1,136 @@
+.sendquerybox {
+  height: auto;
+  width: 94%;
+  margin-top: 1%;
+  margin-left: 2.5%;
+}
+.sendtext {
+  font: normal normal normal 1vw/1.684vw Poppins;
+  width: auto;
+  height: auto;
+  margin-bottom: -1%;
+}
+.formval {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sendtext1 {
+  font: normal normal normal 1vw/1.684vw Poppins;
+  width: auto;
+  height: auto;
+}
+.sendinput {
+  width: 40.425vw;
+  border: 0.073vw solid #08e5a9;
+  height: 2.782vw;
+  padding: 0.732vw;
+  font: normal normal normal 1vw/1.318vw Poppins;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 0.5%;
+}
+.textarea {
+  resize: none;
+  padding: 0.732vw;
+  width: 40.425vw;
+  border: 0.073vw solid #08e5a9;
+  height: auto;
+  font: normal normal normal 1vw/1.318vw Poppins;
+  cursor: pointer;
+  outline: none;
+  padding-bottom: 0;
+  margin-bottom: 0.5%;
+}
+.sendquery {
+  width: 10.615vw;
+  height: 2.928vw;
+  background: #08e5a9;
+  border: #08e5a9;
+  outline: none;
+  cursor: pointer;
+  font: normal normal normal 0.952vw/1.464vw Poppins;
+  color: #1d1d1d;
+}
+@media (max-width: 768px) {
+  .sendquerybox {
+    margin-left: 3.5%;
+  }
+  .sendinput {
+    height: 7vw;
+    width: 60vw;
+    padding-left: 2vw;
+    font: normal normal normal 2vw/3vw Poppins;
+    margin-bottom: 2vw;
+  }
+  .textarea {
+    font:normal normal normal 2vw/3vw Poppins;
+    width:60vw;
+    padding-left: 2vw;
+    padding-top: 1.5vw;
+    margin-bottom: 2vw;
+  }
+
+  .sendquery{
+    width: 50vw;
+    height: 6vw;
+    background: #08e5a9;
+    border: #08e5a9;
+    outline: none;
+    cursor: pointer;
+    font: normal normal normal 3vw/5vw Poppins;
+    color: #1d1d1d;
+    margin-top: 2vw;
+  }
+
+  .sendtext{
+    font: normal normal normal 2.5vw/3.5vw Poppins;
+    margin-bottom: 5%;
+  }
+
+  .sendtext1{
+    font: normal normal normal 2.75vw/3.5vw Poppins;
+    width: auto;
+    height: auto;
+  }
+}
+@media (max-width: 425px) {
+  .sendtext {
+    font: normal normal normal 3vw/4vw Poppins;
+    width: auto;
+    height: auto;
+    margin-bottom: 6%;
+  }
+  .sendtext1{
+    font: normal normal normal 3.75vw/4.5vw Poppins;
+    width: auto;
+    height: auto;
+  }
+  .sendinput{
+    height: 10vw;
+    width: 80vw;
+    padding-left: 2vw;
+    font: normal normal normal 2.75vw/3.5vw Poppins;
+    margin-bottom: 3vw;
+  }
+  .textarea{
+    font:normal normal normal 2.75vw/3.5vw Poppins;
+    width:80vw;
+    padding-left: 2vw;
+    padding-top: 1.5vw;
+    margin-bottom: 2vw;
+  }
+  .sendquery{
+    width: 80vw;
+    height: 10vw;
+    background: #08e5a9;
+    border: #08e5a9;
+    outline: none;
+    cursor: pointer;
+    font: normal normal normal 4vw/5vw Poppins;
+    color: #1d1d1d;
+    margin-top: 2vw;
+  }
+}

@@ -1,0 +1,54 @@
+.Heading_add_blog {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  font: normal normal bold 1.757vw/2.562vw Poppins;
+  color: #1d1d1d;
+  margin-top: 0.366vw;
+  margin-bottom: 0;
+}
+.button_box_blog {
+  width: auto;
+  height: auto;
+  margin-top: 1.171vw;
+  margin-bottom: 1.318vw;
+  display: flex;
+  margin-left: 19.034vw;
+}
+.cancelBlog {
+  width: 12.299vw;
+  height: 2.782vw;
+  background-color: white;
+  border: 0.1vw solid #3d3d3d;
+  font: normal normal normal 0.878vw/1.318vw Poppins;
+  font-weight: 600;
+  cursor: pointer;
+  color: #3d3d3d;
+}
+.shareblog {
+  width: 12.299vw;
+  height: 2.782vw;
+  background-color: #1d1d1d;
+  box-shadow: 0px 3px 6px #00000029;
+  font: normal normal normal 0.878vw/1.318vw Poppins;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border: 0.007vw solid black;
+  margin-left: 2.269vw;
+}
+.shareblog:hover {
+  color: #ffffff;
+}
+@media(max-width:425px){
+  .cancelBlog{
+    width: 15.299vw;
+    height: 3.782vw;
+    font: normal normal normal 1vw/1.318vw Poppins;
+  }
+  .shareblog{
+    width: 14.299vw;
+    height: 3.782vw;
+    font: normal normal normal 1vw/1.318vw Poppins;
+  }
+}

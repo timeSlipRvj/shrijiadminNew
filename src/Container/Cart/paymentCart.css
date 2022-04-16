@@ -1,0 +1,424 @@
+.outerpaymentbox {
+  height: 35.578vw;
+  width: auto;
+  display: flex;
+  margin-left: 7%;
+  margin-right: 10.176vw;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  justify-content: space-between;
+}
+.firstpaybox {
+  width: 52.635vw;
+  height: 100%;
+  border: 0.146vw solid #08e5a9;
+  display: flex;
+  flex-direction: column;
+}
+.insidepay {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.nav-link {
+  margin-top: 10%;
+  padding: 1vw;
+  font: normal normal normal 0.878vw/1.318vw Poppins;
+  color: #3d3d3d;
+  border-radius: none;
+}
+.nav1new {
+  height: 100%;
+  width: 15vw;
+  background: #dddddd;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #3d3d3d;
+  background-color: white;
+  border-radius: none;
+}
+.paymethod {
+  width: 29%;
+  height: 100%;
+  background-color: #dddddd;
+}
+.paymethod ul {
+  list-style: none;
+  width: 100%;
+  height: 60%;
+  padding-left: 0%;
+  margin-top: 15%;
+}
+.paymethod ul li {
+  width: 100%;
+  text-align: center;
+  margin-top: 10%;
+  height: 3.294vw;
+  cursor: pointer;
+  padding-top: 7%;
+  font: normal normal normal 0.878vw/1.318vw Poppins;
+  color: #3d3d3d;
+}
+.boxdetail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.creditDetail {
+  margin-top: 7%;
+  margin-left: 15%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 28.184vw;
+}
+.creditpara {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font: normal normal normal 0.878vw/1.318vw Poppins;
+  color: #3d3d3d;
+  margin-bottom: 0;
+}
+.inputBoxCard {
+  width: 100%;
+  border: 0.073vw solid #08e5a9;
+  height: 2.782vw;
+  padding: 0.732vw;
+  font: normal normal normal 0.878vw/1.318vw Poppins;
+  cursor: pointer;
+  margin-top: 4%;
+  outline: none;
+}
+.inputBoxCard::placeholder {
+  color: #9d9d9d;
+}
+.monthyearbox {
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+.monthimput {
+  border: 0.073vw solid #08e5a9;
+  height: 2.782vw;
+  padding: 0.732vw;
+  font: normal normal normal 0.878vw/1.318vw Poppins;
+  cursor: pointer;
+  outline: none;
+  width: 12.37vw;
+}
+.monthimput::placeholder {
+  color: #9d9d9d;
+}
+.cvv {
+  width: 13.151vw;
+  height: auto;
+  font: normal normal normal 0.878vw/1.318vw Poppins;
+}
+.check_box1 {
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+  border: black;
+  margin-left: 20%;
+}
+.paynow {
+  border: white;
+  margin-left: 35%;
+  margin-top: 2%;
+  background: #08e5a9 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  color: white;
+  width: 12.299vw;
+  font: normal normal normal 0.878vw/1.318vw Poppins;
+  cursor: pointer;
+  outline: none;
+  height: 2.782vw;
+}
+.secondpaybox {
+  height: 100%;
+  width: 23.353vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.secondpay_1box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 7%;
+  justify-content: space-between;
+}
+.para1_pay {
+  width: 100%;
+  margin-bottom: 2%;
+  text-align: center;
+  height: auto;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #5d5d5d;
+}
+#payline {
+  width: 21vw;
+  color: #5d5d5d;margin: 0;
+}
+.paymntbox_card {
+  width: 100%;
+  height: auto;
+  margin-top: 3%;
+  color: #5d5d5d;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Free_boxpay {
+  border: 0.007vw solid #dddddd;
+  margin-top: 1.903vw;
+  align-items: center;
+  height: 25.549vw;
+  display: flex;
+  flex-direction: column;
+  padding: 1vw;
+}
+
+@media (max-width: 768px) {
+   .outerpaymentbox{
+     flex-direction: column;
+     height: auto;
+   }
+   .firstpaybox{
+     width: 100%;
+   }
+   .creditDetail {
+    margin-top: 7%;
+    margin-left: 15%;
+    margin-right: 10%;
+    height: auto;
+    width: fit-content;
+  }
+
+  .creditpara {
+    font-size: 1.75vw;
+  }
+  
+  .inputBoxCard {
+    width: 40vw;
+    height: 4.1vw;
+    font-size: 1.5vw;
+    padding-left: 1.5vw;
+  }
+
+  .monthyearbox{
+    height: 4.1vw;
+    width: 40vw;
+  }
+
+  .monthimput{
+    height: 4.1vw;
+    width: 19vw;
+    font-size: 1.5vw;
+    padding-left: 1.5vw;
+  }
+
+  .cvv{
+    font-size: 1.2vw;
+    width: 19vw;
+    padding-top: 0.7vw;
+  }
+
+  .check_box1{
+    margin-left: 15%;
+  }
+
+  .paynow{
+    height: 4.5vw;
+    width: 17vw;
+    color: black;
+    font-size: 2vw;
+    margin-bottom: 2.25vw;
+  }
+
+   .nav1new {
+    height: 100%;
+    width: 22vw;
+    background: #dddddd;
+    padding-top: 2.5vw;
+  }
+
+  .nav-link{
+    font-size: 1.5vw;
+  }
+
+  .secondpaybox{
+    width: 100%;
+  }
+
+  .secondpay_1box{
+    flex-direction: row;
+    padding: 4vw 4vw 2vw 4vw;
+  }
+
+  .para1_pay{
+    font-size: 2vw;
+  }
+  .payline{
+    font-size: 3vw;
+    margin-top: -1vw;
+  }
+  .paymntbox_card{
+    font-size: 2vw;
+    margin-top: -0.5vw;
+  }
+
+  .Free_boxpay{
+    padding-left:4vw;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 22vw;
+    flex-wrap: wrap;
+  }
+
+  .Free_Shipping{
+    width: fit-content;
+  }
+
+  .boxdetail{
+    width: fit-content;
+  }
+}
+@media (max-width: 425px) {
+  .secondpay_1box {
+    padding: 3%;
+  }
+  .Free_boxpay {
+    margin-top: -4px;
+  }
+  .creditDetail {
+    margin-left: 7%;
+  }
+
+  .outerpaymentbox{
+    flex-direction: column;
+    height: auto;
+    margin: 3vw;
+  }
+  .firstpaybox{
+    width: 100%;
+    height: 75vw;
+  }
+  .creditDetail {
+   margin-top: 7%;
+   margin-left: 0%;
+   margin-right: 5%;
+   height: auto;
+   width: fit-content;
+ }
+
+ .creditpara {
+   font-size: 3.1vw;
+ }
+ 
+ .inputBoxCard {
+   width: 60vw;
+   height: 7vw;
+   font-size: 2.4vw;
+   padding-left: 2vw;
+ }
+
+ .monthyearbox{
+   height: 6.75vw;
+   width: 60vw;
+ }
+
+ .monthimput{
+   height: 6.75vw;
+   width: 28vw;
+   font-size: 2.4vw;
+   padding-left: 2vw;
+ }
+
+ .cvv{
+  font: normal normal normal 2.2vw/2.5vw Poppins;
+   width: 28vw;
+   padding-top: 0.7vw;
+ }
+
+ .check_box1{
+   margin-left: -1vw;
+ }
+
+ .paynow{
+   height: 7.75vw;
+   width: 52vw;
+   color: black;
+   font-size: 3.5vw;
+   margin-bottom: 2.25vw;
+   margin-left: 4vw;
+ }
+
+  .nav1new {
+   height: 100%;
+   width: 25vw;
+   background: #dddddd;
+   padding-top: 6.5vw;
+ }
+
+ .nav-link{
+  font: normal normal normal 2.5vw/2.8vw Poppins;
+ }
+
+ .secondpaybox{
+   width: 100%;
+ }
+
+ .secondpay_1box{
+   flex-direction: row;
+   padding: 6vw 1vw 3vw 1vw;
+ }
+
+ .para1_pay{
+   font-size: 3.5vw;
+   width: 40vw;
+ }
+ .payline{
+   font-size: 5vw;
+   margin-top: -2.5vw;
+ }
+ .paymntbox_card{
+   font-size: 3.4vw;
+   margin-top: -2vw;
+ }
+
+ .Free_boxpay{
+   padding-left:3vw;
+   flex-direction: row;
+   justify-content: space-between;
+   height: 30vw;
+   flex-wrap: wrap;
+ }
+
+ .Free_Shipping{
+   width: 40vw;
+   height: 11vw;
+ }
+
+ .shipping_text{
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .shipping_text1{
+  height: 1vw;
+}
+
+.shipping_text2{
+  height: 3.75vw;
+}
+}

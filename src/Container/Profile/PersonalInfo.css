@@ -1,0 +1,178 @@
+.headingPersonalEdit{
+    height: auto;
+    width: 50%;
+    margin-top: 1.5%;
+    margin-left: 2%;
+    display: flex;
+}
+.headPersonal{
+    font: normal normal 200 1.3vw/2vw Poppins;
+    color: #3D3D3D;
+    margin-bottom: 0;
+    margin-right: 2%;
+}
+.headedit{
+    text-decoration: underline;
+    font: normal normal 200 1vw/2.3vw Poppins;
+    color: #08E5A9;cursor: pointer;
+}
+.profilepersonalImg{
+    width: 10vw;
+    border-radius: 50%;
+    height: 10vw;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.profilepersonalImg img{
+    height: 100%;
+    width: 100%;border-radius: 50%;
+}
+.inputboxpersonal{
+    width: 31.040vw;
+    margin-left: 3%;display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+.namefulllast{
+    width: 100%;justify-content: space-between;
+    height: auto;
+    display:flex;
+}
+.personalInput{
+    width: 15.227vw;
+    font: normal normal 200 1vw/2.3vw Poppins;
+    padding: 0.4vw;
+    border: 0.1px solid #cdcdcd;
+}
+.lastLinepersonal{
+    font: normal normal 200 1.1vw/2.3vw Poppins;
+color: #7D7D7D;
+margin-left: 2%;
+margin-top: 4%;
+}
+@media(max-width:768px){
+    .personalbox {
+        display: flex;
+    }
+    .profilepersonalImg {
+        width: 18vw;
+        border-radius: 50%;
+        height: 18vw;
+        margin-left: 4vw;
+        margin-top: 4vw;
+    }
+
+    .inputboxpersonal {
+        height: auto;
+        width: 48vw;
+        margin-left: 6vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 1vw;
+        margin-top: 4.5vw;
+    }
+
+    .namefulllast {
+        width: 100%;
+        justify-content: space-between;
+        padding-bottom: 2vw;
+        padding-top: 2vw;
+        height: auto;
+        display: flex;
+    }
+
+    .personalInput {
+        height: 3.6vw;
+        width: 22vw;
+        font: normal normal 200 1.5vw/2.3vw Poppins;
+        padding-left: 1.7vw;
+        padding-top: 1vw;
+    }
+
+    .lastLinepersonal {
+        font: normal normal 200 1.9vw/2.3vw Poppins;
+        padding: 0vw 3vw 3vw 2vw;
+        margin-top: 2.5vw;
+    }
+
+    .headPersonal {
+        font: normal normal 200 2.2vw/2vw Poppins;
+    }
+
+    .headedit {
+        font: normal normal 200 2.2vw/2.3vw Poppins;
+    }
+}
+@media(max-width:425px){
+    .headingPersonalEdit{
+        height: auto;
+        width: 50%;
+        margin-top: 2.5vw;
+        margin-left: 5vw;
+    }
+    .personalbox{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .profilepersonalImg{
+        width: 100%;
+        border-radius: 50%;
+        height: 100%;
+        margin-left: 0vw;
+        margin-top: 6vw;
+        text-align: center;
+    }
+
+    .profilepersonalImg img{
+        height: 40vw;
+        width: 40vw;
+    }
+
+    .inputboxpersonal{
+        height: auto;
+        width: 85%;
+        margin-left: 5.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 2vw;
+        margin-top: 3.5vw;
+    }
+
+    .lastLinepersonal{
+        font: normal normal 200 2.6vw/2.6vw Poppins;
+        padding: 0vw 3vw 3vw 2vw;
+        margin-top:2.5vw;
+    }
+    .headPersonal{
+        font: normal normal 200 3.5vw/2vw Poppins;
+    }
+    .headedit{
+        font: normal normal 200 3.5vw/2.3vw Poppins;
+    }
+    .personalInput{
+        height: 10vw;
+        width: 36vw;
+        font:normal normal 200 3.5vw/2.3vw Poppins;
+        padding-left: 2.5vw;
+        padding-top: 1vw;
+    }
+
+    .email_personalInput{
+        width: 77vw;
+        margin-top: 4vw;
+    }
+
+    .namefulllast{
+        width: 100%;
+        justify-content: space-between;
+        padding-bottom: 2vw;
+        padding-top:5vw;
+        height: auto;
+        display:flex;
+    }
+}

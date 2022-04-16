@@ -1,0 +1,178 @@
+.Heading_about {
+    display: flex;
+    width: auto;
+    height: 2.05vw;
+    margin-top: 1.025vw;
+    margin-left: 2.343vw;
+  }
+  .Heading_about p {
+    margin: 0;
+    width: auto;
+    height: auto;
+    font: italic normal bold 1.464vw/2.196vw Poppins;
+    color: #3d3d3d;
+  }
+  .Heading_about hr {
+    height: 0;
+    width: 83.602vw;
+    margin-left: 1%;
+    margin-top: 1.098vw;
+    border: 0.073vw solid #08e5a9;
+  }
+  .image_about {
+    height: 35.725vw;
+    width: 100vw;
+    margin-top: 2.855vw;
+    cursor: pointer;
+    position: relative;
+  }
+  .image_about p {
+    position: absolute;
+    width: 60.835vw;
+    height: auto;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 3px 6px #00000029;
+    font: normal normal 200 2.196vw/3.367vw Poppins;
+    margin-left: 19.619vw;
+  }
+  .image_about img {
+    width: 100%;
+    height: 100%;
+  }
+  .mission_about {
+    height: auto;
+    /* width: 59.444vw; */
+    /* margin-left: 20.278vw;
+    margin-top: 2.196vw; */
+  }
+  .mission_about table{
+    margin: auto;
+  }
+  .menu-link{
+    transition: all 0.5s ease;
+  }
+  .menu-link:hover{
+    border-bottom: 2px solid #08E5A9;
+    padding: 0.5em
+  }
+  .bold_about {
+    height: 2.05vw;
+    margin: 0;
+    text-align: center;
+    width: auto;
+    font: normal normal normal 1.464vw/2.196vw Poppins;
+    font-weight: 600;
+    color: #3d3d3d;
+  }
+  .detail_about_mission {
+    height: auto;
+    width: auto;
+    text-align: center;
+    font: normal normal 200 1.098vw/1.684vw Poppins;
+    color: #3d3d3d;
+    margin-top: 1.171vw;
+  }
+  .categories_black_about {
+    margin-left: 2.343vw;
+    margin-top: 2.635vw;
+    height: auto;
+    width: 93.704vw;
+  }
+  .categories_black_about ul {
+    list-style: none;
+    width: 93.704vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    justify-content: space-around;
+  }
+  .categories_black_about ul li {
+    width: 25.183vw;
+    cursor: pointer;
+    height: 26.647vw;
+    text-align: center;
+    font: normal normal 200 2.196vw/3.367vw Poppins;
+    color: #ffffff;
+    padding-top: 12.006vw;
+    background: #1d1d1d;
+    margin: 1.464vw 2.196vw;
+  }
+  .detail_about_mission_1 {
+    width: auto;
+    height: auto;
+    text-align: left;
+    font: normal normal 200 1.098vw/1.684vw Poppins;
+    color: #3d3d3d;
+  }
+
+  @media(max-width:768px){
+    .Heading_about{
+      margin-top: 3vw;
+    }
+
+    .Heading_about p{
+      font-size: 2vw;
+    }
+  }
+  @media(max-width:425px){
+    .image_about {
+      height: auto;
+      /* width: 90vw; */
+      display: flex;
+      flex-direction: column;
+      /* margin-left: 2.5vw; */
+    }
+
+    .two-col-banner .two-banner {
+      height: 25vw;
+    }
+
+    .image_about .big_banner{
+      width: 90vw;
+      height: 25vw;
+    }
+    .categories_black_about ul {
+      width: 72.704vw;
+      margin-left: 12vw;
+      justify-content: space-between;
+  }
+  .detail_about_mission{height: auto;
+    width: auto;
+    text-align: center;
+    font: normal normal 400 1.3vw/1.984vw Poppins;
+    color: #3d3d3d;
+    margin-top: 1.171vw;}
+    .detail_about_mission_1{
+      width: auto;
+      height: auto;
+      text-align: left;
+      font: normal normal 400 1.3vw/1.984vw Poppins;
+      color: #3d3d3d;
+    }
+    .categories_black_about ul li {
+      width: 28.183vw;
+      cursor: pointer;
+      height: 29.647vw;
+      text-align: center;
+      font: normal normal 200 2.196vw/3.367vw Poppins;
+      color: #ffffff;
+      padding-top: 12.006vw;
+      background: #1d1d1d;
+      margin: 1.464vw 2.196vw;
+  
+    }
+    .Heading_about{
+      margin-left: 3.343vw;
+      height: fit-content;
+      padding-top: 2vw;
+    }
+
+    .Heading_about p{
+      font-size: 4.7vw;
+    }
+    .Heading_about hr{    
+      width: 40.602vw;
+    }
+  }

@@ -1,0 +1,44 @@
+.addressradio {
+  height: auto;
+  width: 90%;
+  text-align: left;
+  margin: 3%;
+}
+.fontP {
+  font-size: normal normal 200 1vw/1.318vw Poppins;
+}
+
+.colorradio:checked {
+  background-color: green;
+  border: grey;
+  box-shadow: none;
+}
+.colorradio[type="checkbox"] {
+  border-radius: 0;
+  box-shadow: none;
+}
+@media (max-width:768px){
+  .fontP{
+      font: normal normal 200 1.5vw/1.318vw Poppins;
+  }
+  .address_personalInput_line {
+    width: 85vw;
+}
+}
+@media(max-width:425px){
+  .address_personalInput{
+    width: 38vw;
+  }
+  .address_inputboxpersonal{
+    width: 80vw;
+    margin-top: 1vw;
+    margin-left: 5vw;
+  }
+
+  .address_personalInput_line{
+    width: 85vw;
+  }
+  .fontP{
+    font: normal normal 200 2.8vw/3.5vw Poppins;
+  }
+}

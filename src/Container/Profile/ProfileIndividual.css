@@ -1,0 +1,833 @@
+.profileOuterMainBOx {
+  width: 95.315vw;
+  height: auto;
+  display: flex;
+  margin-left: 2.5%;
+  margin-top: 1%;
+}
+.firstboxprofile {
+  width: 22.255vw;
+  height: 59%;
+  border: 1px solid #08e5a9;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+}
+.name_individual_Hi {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding-left: 3vw;
+  margin-top: 2%;
+}
+.name_hi {
+  margin-left: 3%;
+  height: auto;
+  width: 85%;
+  padding-top: 1.5%;
+  display: flex;
+}
+.himessage {
+  margin: 0;
+  height: auto;
+  width: auto;
+  font: normal normal 200 1.3vw/1.977vw Poppins;
+  color: #3d3d3d;
+  margin-left: 2%;
+}
+.nameperson {
+  margin: 0;
+  height: auto;
+  width: auto;
+  font: normal normal 200 1.3vw/1.977vw Poppins;
+  color: #3d3d3d;
+  font-weight: bolder;
+  margin-left: 4%;
+}
+.orderboxsummary {
+  display: flex;
+  width: 100%;
+  padding-left: 20%;
+  height: auto;
+  margin-top: 7%;
+  cursor: pointer;
+}
+.orderboxsummary p {
+  width: auto;
+  height: auto;
+  font: normal normal normal 1vw/1.537vw Poppins;
+  margin-top: 1%;
+  color: #3d3d3d;
+}
+.boxIcon {
+  margin-right: 3%;
+  font-size: 0.9vw;
+  margin-top: 2%;
+}
+.Accountpart {
+  height: auto;
+  margin-top: 7%;
+  width: 100%;
+}
+.accountIcon {
+  font-size: 1.4vw;
+  margin-right: 2%;
+}
+.orderboxsummary1 {
+  display: flex;
+  width: 100%;
+  padding-left: 19%;
+  height: auto;
+  margin-top: 10%;
+  cursor: pointer;
+}
+.orderboxsummary1 p {
+  width: auto;
+  height: auto;
+  font: normal normal normal 1vw/1.537vw Poppins;
+  color: #3d3d3d;
+}
+.settingcategory{
+    height: auto;
+    width: 12vw;
+    margin-top: 5%;
+    margin-left: 27%;
+}
+.navcolor{
+    background-color: white;
+    margin-bottom: 5%;
+    width: 98%;
+}
+.pillval{
+    text-align: left;
+    padding: 0;
+    margin-left: 5%;
+    margin-top:6%;
+}
+.secondBoxprofile{
+    width: 80%;
+    margin-left: 2%;
+  height: auto;
+  border: 1px solid #08e5a9;
+}
+.tble_box1 {
+    width: 97%;
+    height: auto;
+    flex-direction: column;
+    margin-top: 0.586vw;
+    margin-left: 2.5%;
+    display: flex;
+}
+.col_names1 {
+    width: 91%;
+    height: auto;
+    margin-right: 1.830vw;
+}
+.product_availnew {
+    width: 16.837vw;
+    height: auto;
+    text-align: center;
+    margin-left: -7%;
+}
+.product_avail1new {
+    width: 6vw;
+    height: auto;
+    text-align: left;
+    margin-left: 1%;
+    font: normal normal normal 0.878vw/1.318vw Poppins;
+    color: #00680a;
+    padding-top: 4%;
+}
+.product_codenew {
+    width: 10.249vw;
+    height: auto;
+    text-align: center;
+    margin-left: -6.5%;
+}
+.product_price1new {
+    width: 10.249vw;
+    height: auto;
+    text-align: left;
+    margin-left: 2%;
+    padding-top: 4%;
+    font: normal normal normal 0.878vw/1.318vw Poppins;
+    font-weight: 500;
+    color: #3d3d3d;
+    line-height: 1.2
+}
+.product_pricenew {
+    width: 10.249vw;
+    height: auto;
+    margin-left: 3%;
+    text-align: left;
+}
+.product_quantitynew {
+    width: 10.249vw;
+    height: auto;
+    text-align: left;
+    margin-left: -2%;
+}
+.product_quantity1new {
+    width: 10.249vw;
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+    text-align: left;
+    padding-top: 4%;
+    margin-left: -5%;
+}
+.product_subtotalnew {
+    width: 10.249vw;
+    height: auto;
+    text-align: center;
+    margin-left: -3.5%;
+}
+.table_headingnew {
+    display: flex;
+    margin: 0;
+    font: normal normal normal 0.878vw/1.318vw Poppins;
+    color: #3d3d3d;
+    width: 90%;
+    padding: 0;
+    padding-bottom: 0.5%;
+    border-bottom: 0.146vw solid #e5d7d7;
+}
+.table_headingnew2{
+    margin: 0;
+    font: normal normal normal 0.878vw/1.318vw Poppins;
+    color: #3d3d3d;
+    width: 90%;
+    padding: 0;
+    padding-bottom: 0.5%;
+    border-bottom: 0.146vw solid #e5d7d7;
+}
+.button_box_1new {
+    display: flex;
+    width: 95%;
+    height: 2.782vw;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.tble_box1complaint {
+    width: 82%;
+    height: auto;
+    flex-direction: row;
+    margin-top: 0.586vw;
+    margin-left: 6.5%;
+    display: flex;
+}
+.product_imagecomplaint {
+    width: 7.540vw;
+    height: auto;
+    text-align: left;
+}
+.product_Namecomplaint {
+    width: 15.227vw;
+    height: auto;
+    margin-left: -3%;
+}
+.product_availnewcomplaint {
+    width: 16.837vw;
+    height: auto;
+    text-align: center;
+    margin-left: -4%;
+}
+.product_codenewcomplaint {
+    width: 10.249vw;
+    height: auto;
+    text-align: center;
+    margin-left: -6.5%;
+}
+.product_pricenewcomplaint {
+    width: 10.249vw;
+    height: auto;
+    margin-left: 0%;
+    text-align: left;
+}
+.product_image1complaint {
+    width: auto;
+    height: auto;
+    font: normal normal normal 0.9vw/1.318vw Poppins;
+    color: #3D3D3D;
+}
+.product_Name1complaint {
+    width: 16.227vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    font: normal normal normal 0.9vw/1.318vw Poppins;
+}
+.product_avail1newcomplaint {
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin-left: 4%;
+    font: normal normal normal 0.878vw/1.318vw Poppins;
+}
+.product_code1complaint {
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin-left: 11.5%;
+    font: normal normal bold 0.878vw/1.318vw Poppins;
+    color: #3d3d3d;
+}
+.product_price1newcomplaint {
+    width: 15.249vw;
+    height: auto;
+    text-align: left;
+    margin-left: 6%;
+    font: normal normal normal 0.878vw/1.318vw Poppins;
+    color: #3d3d3d;
+}
+.product_quantity1newcomplaint {
+    width: auto;
+    display: flex;
+    cursor: pointer;
+    height: auto;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-left: -15%;
+    font: normal normal bold 0.878vw/1.318vw Poppins;
+}
+.dropdown_colors1 {
+    width: 4.564vw;
+    height: 1.391vw;
+    font: normal normal normal 0.878vw/1.318vw Poppins;
+    padding-left: 0.659vw;
+    color: #3d3d3d;background: white;
+    box-shadow: 0px 3px 6px #00000029;
+    outline: none;
+}
+.complaintshead{
+    margin: 2%;
+    font: normal normal normal 0.878vw/1.318vw Poppins;
+    width: auto;
+    height: auto;
+}
+.complaintbutton{
+    background: #08E5A9 0% 0% no-repeat padding-box;
+    width: 11vw;
+    text-align: left;
+    font: normal normal normal 0.98vw/1.318vw Poppins;
+    color: #FFFFFF;
+    height: 3vw;
+    border: white;
+    margin-left: 29vw;
+    margin-top: 3vw;
+}
+.table_heading2 {
+    display: flex;
+    margin-top: 1.2%;
+    margin-left: 1%;
+    color: #3d3d3d;
+    width: 99.4%;
+    height: auto;
+    padding: 0;
+}
+.orderboxsummary .nav-pills button{
+    font: normal normal normal 1vw/1.537vw Poppins;
+    color: #3d3d3d;
+}
+.mailId{
+    width:98%;
+    margin-top: 4%; font: normal normal normal 0.98vw/1.318vw Poppins;
+    text-align: right;
+}
+.image_user1{
+    height: 3vw;
+    width: 3vw;
+}
+.image_user1 img{
+    border-radius: 50%;
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+}
+.firstboxprofile_r{
+    display: none;
+}
+
+.small_screen_text_425{
+    display: none;
+}
+@media(max-width: 768px){
+    .small_screen_text .dropdown-menu .nav .nav-link{
+        width: 100%;
+        padding: 0.5em;
+        font-size: 1em;
+        line-height: 1.2
+    }
+   
+    .small_screen_text .Order_Section .nav button{
+        font-size:13px;
+        margin: 0 !important;
+    }
+    .profileOuterMainBOx {
+        width: 91vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-left: 4.25vw;
+        margin-right: 4.25vw;
+        margin-top: 1%;
+      }
+
+    .secondBoxprofile{
+        width: 90vw;
+        margin-left: 1%;
+    }
+
+    .complaintbutton{
+        width: 12vw;
+    }
+    .dropdown_colors1{
+        width: 5.3vw;
+    height: 1.9vw;
+    }
+    .firstboxprofile{
+        width: 17.255vw;
+        display: none;
+    }
+
+    .col_names1 {
+        width: 95%;
+        margin-right: 0vw;
+    }
+
+    .table_headingnew {
+        font: normal normal normal 2vw/1.318vw Poppins;
+        color: #3d3d3d;
+        width: 100% !important;
+        width: fit-content;
+        padding-top: 2vw;
+    }
+    .table_headingnew2{
+        font: normal normal normal 2vw/1.318vw Poppins;
+        line-height: 1.2
+    }
+
+    .product_availnew {
+        padding-left: 0vw;
+        width: 30vw;
+    }
+
+    .product_pricenew {
+        width: 12vw;
+    }
+
+    .product_avail1new{
+        font-size: 1.75vw;
+        margin-left: 4vw;
+    }
+
+    .product_code1{
+        font-size: 1.75vw;
+        margin-left: 6vw;
+    }
+
+    .product_price1new{
+        font-size: 1.75vw;
+        margin-left: 6vw;
+    }
+
+    #closeIcon{
+        font-size: 2vw;
+    }
+
+    .complaintshead {
+        font: normal normal normal 2.2vw/1.318vw Poppins;
+        margin-left: 2vw;
+        padding-left: 1.5vw;
+        padding-top: 1vw;
+    }
+
+    .product_Namecomplaint {
+        width: auto;
+    }
+
+    .product_availnewcomplaint {
+        width: auto;
+        margin-left: 7.5vw;
+    }
+
+    .product_codenewcomplaint {
+        width: auto;
+        margin-left: 3.5vw;
+    }
+
+    .product_pricenewcomplaint {
+        width: auto;
+        margin-left: 3vw;
+    }
+
+    .product_image1complaint {
+        font-size: 1.7vw;
+        padding-top: 1vw;
+    }
+
+    .product_Name1complaint {
+        font: normal normal normal 1.6vw/2.5vw Poppins;
+        width: 24vw;
+        margin-left: 4vw;
+    }
+
+    .product_avail1newcomplaint {
+        font-size: 1.6vw;
+        padding-top: 1vw;
+    }
+
+    .product_code1complaint {
+        font-size: 1.6vw;
+        padding-top: 1vw;
+        margin-left: 5vw;
+    }
+
+    .product_quantity1newcomplaint {
+        font: normal normal normal 1.5vw/2.5vw Poppins;
+        margin-left: -6vw;
+    }
+
+    .dropdown_colors1 {
+        width: 6vw;
+        height: 3vw;
+        border: white;
+        font-size: 1.5vw;
+    } 
+
+    .complaintbutton {
+        width: 45vw;
+        height: 5.5vw;
+        margin-left: 20vw;
+        color: black;
+        font-size: 2.2vw;
+        text-align: center;
+    }
+
+    .mailId {
+        font-size: 1.8vw;
+        padding-bottom: 1.5vw;
+    }
+    .firstboxprofile_r{
+        display: flex;
+        align-items: center;
+        /* grid-template-columns: 1fr 1fr 1fr 3fr; */
+    }
+    
+    .name_hi, .himessage{
+        margin-left: 0;
+    }
+    .Order_Section{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        float: left;
+        font-size: 0.8em;
+        padding: 9px 0px 0px 10px;
+    }
+    .Order_Section svg{
+        font-size: 2em;
+        margin: 5px;
+    }
+    .Account_Section svg{
+        margin: 5px;
+        font-size: 1.3em;
+    }
+    .Order_Section p{
+        display: inline;
+        width: 100%;
+    }
+    .name_individual_Hi{
+        width: 100%;
+        height:auto;
+        flex-direction: column;
+
+    }
+    
+    .name_individual_Hi .image_user1 img, .name_individual_Hi .image_user1{
+        width:30px;
+        height:30px;
+    }
+    .name_individual_Hi .name_hi p{
+        font-size: 0.8em
+    }
+    .Account_Section{
+    font-size: 13px;
+    align-items: center;
+    padding-top: 9px;
+    padding-left: 10px;
+    display: flex;
+    }
+    .Account_Section p{
+        font-size:1em
+    }
+    .mdAccountCircle{
+        display: inline;
+        font-size: 12px;
+    }
+  }
+  @media(max-width:425px){
+    .large_screen_text_425{
+        display: none;
+    }
+    .small_screen_text .name_individual_Hi{
+        display: none;
+    }
+
+    .small_screen_text_425{
+        display: inline-block;
+    }
+    .profileOuterMainBOx {
+        width: 91vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-left: 4.25vw;
+        margin-right: 4.25vw;
+        margin-top: 1%;
+      }
+
+      .firstboxprofile {
+        width: 95vw;
+        height: 59%;
+        border: 1px solid #08e5a9;
+        padding: 1vw;
+        display: none;
+      }
+
+      .secondBoxprofile{
+        margin-left: 0vw;
+        width: 100%;
+    }
+    
+    .tble_box1{
+        width: auto;
+    }
+    .tble_box{
+        width: auto;
+    }
+
+    .scroll_x_box{
+        overflow-x: scroll;
+    }
+
+    .col_names1 {
+        width: auto;
+    }
+
+    .col_names {
+        width: auto;
+    }
+
+    .tble_box1complaint{
+        padding-top: 2vw;
+        width: 90vw;
+        margin-left: 3vw;
+    }
+
+    .table_headingnew {
+        font: normal normal normal 3.2vw/1.318vw Poppins;
+        color: #3d3d3d;
+        width: fit-content;
+        padding-top: 2vw;
+    }
+
+    .table_heading {
+        font: normal normal normal 3.2vw/1.318vw Poppins;
+        color: #3d3d3d;
+        width: fit-content;
+        padding-top: 2vw;
+    }
+
+    .product_codenew{
+        width: 20vw;
+        margin-left: 0vw;
+        padding-right: 1vw;
+        padding-left: 1.5vw;
+    }
+
+    .product_availnew {
+        width: 25vw;
+        margin-left: 0vw;
+    }
+    .product_pricenew{
+        width: 25vw;
+        margin-left: 0vw;
+    }
+      .orderboxsummary {
+        display: flex;
+        width: auto;
+        padding-left: 2vw;
+        margin-top: 1vw;
+      }
+      .orderboxsummary p {
+        width: 6vw;
+        height: auto;
+        font: normal normal normal 1vw/1.537vw Poppins;
+        margin-top: 1%;
+        color: #3d3d3d;
+      }
+
+      .orderboxsummary1 {
+        display: flex;
+        width: 6vw;
+        padding-left: 2vw;
+        margin-top: 1vw;
+      }
+
+      .button_box_1new{
+          height: auto;
+      }
+
+      .complaintshead{
+          font: normal normal normal 3.5vw/1.318vw Poppins;
+          margin-left: 2vw;
+          padding-left: 1.5vw;
+          padding-top: 2vw;
+      }
+
+      .product_Namecomplaint {
+        width: auto;
+        margin-left: 3vw;
+        padding-right:20vw;
+      }
+      .product_availnewcomplaint {
+        width: 30vw;
+        margin-left: 3vw;
+        padding-right: 3vw;
+      }
+
+      .product_codenewcomplaint {
+        width: auto;
+        margin-left: 2vw;
+        padding-right: 2vw;
+      }
+
+      .product_pricenewcomplaint {
+        width: auto;
+        margin-left: 3vw;
+      }
+
+      .table_heading2 {
+        margin-top: 2vw;
+        margin-left: 1.5vw;
+        width: 100%;
+    }
+    
+    .product_image1complaint{
+        font-size: 3vw;
+        padding-top: 1vw;
+        padding-right: 4vw;
+    }
+
+    .product_Name1complaint{
+        font: normal normal normal 3vw/3.5vw Poppins;
+        width: 50vw;
+    }
+
+    .product_avail1newcomplaint{
+        font-size: 3vw;
+        padding-top: 1vw;
+        margin-right: 9vw;
+    }
+
+    .product_code1complaint{
+        font-size: 3vw;
+        padding-top: 1vw;
+        margin-left: 3vw;
+    }
+    .save_box{
+        height: 8vw;
+    }
+
+    .product_quantity1newcomplaint{
+        font: normal normal normal 3vw/3.5vw Poppins;
+        margin-left: 3vw;
+    }
+
+      .name_individual_Hi{
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        padding-left: 2vw;
+        margin-top: 2%;
+        margin-bottom: 5%;
+      }
+      .boxIcon{    margin-right: 3%;
+        font-size: 1.2vw;
+        margin-top: 2%;
+    }
+    .orderboxsummary1 p{
+        width: auto;
+        height: auto;
+        font: normal normal normal 1.2vw/1.537vw Poppins;
+        margin-left: 0.2vw;
+        color: #3d3d3d;
+    }
+    .accountIcon{
+        font-size: 1.7vw;
+        margin-right: 2%;
+    }
+    .orderboxsummary1{
+        display: flex;
+        width: 100%;
+        padding-left: 18%;
+        height: auto;
+        margin-top: 10%;
+        cursor: pointer;
+    }
+    .orderboxsummary p {
+        width: auto;
+    height: auto;
+    font: normal normal normal 1.2vw/1.537vw Poppins;
+    margin-top: 2.6%;
+    color: #3d3d3d;
+    }
+      .image_user1{
+        margin-top: -1.2vw;
+      }
+      .dropdown_colors1 {
+        width: 12vw;
+        height: 6vw;
+        border: white;
+        font-size: 3vw;
+    }
+    .complaintbutton {
+        width: 70vw;
+        height: 10vw;
+        margin-left: 9vw;
+        color: black;
+        font-size: 4vw;
+        text-align: center;
+    }
+    .mailId{
+        font-size: 2.1vw;
+        padding-bottom: 1.5vw;
+    }
+    .product_price1new{
+        width: 20vw;
+        font-size: 2.75vw;
+    }
+    .product_avail1new{
+        width: 20vw;
+        font-size: 2.75vw;
+    }
+
+    .profile_account_link{
+        font-size: 8vw;
+    }
+  }
+  @media (max-width:375px){
+    .image_user1 {
+        margin-top: -2.2vw;
+    }
+    .small_screen_text .Order_Section, .small_screen_text .Account_Section{
+        font-size: 12px
+    }
+    .small_screen_text .Order_Section svg, .small_screen_text .Account_Section svg{
+        font-size: 1em;
+        margin: 2px;
+    }
+  }

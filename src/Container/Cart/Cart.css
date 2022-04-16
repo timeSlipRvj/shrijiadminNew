@@ -1,0 +1,502 @@
+.coupon-applied{
+  font-size: 0.8em;
+  color: #09c996;
+  padding: 0 0.5em;
+}
+.No_of_product {
+  width: auto;
+  height: auto;
+  margin-left: 4.685vw;
+  margin-top: 0.512vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #3d3d3d;
+}
+.total_items_cart {
+  width: 90.630vw;
+  height: auto;
+  border: 0.073vw solid #08e5a9;
+  margin-left: 4.685vw;
+}
+.total_head_no {
+  background: #08e5a9 0% 0% no-repeat padding-box;
+  width: 100%;
+  height: 3.148vw;
+  display: flex;
+}
+.total_head_no p {
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  font-weight: 500;width: auto;
+  color: #ffffff;
+  padding: 0.732vw;
+}
+.tble_box {
+  width: 96%;
+  height: auto;
+  flex-direction: column;
+  margin-top: 0.586vw;
+  margin-left: 3.734vw;
+  display: flex;
+}
+.col_names {
+  width: 100%;
+  height: auto;
+  margin-right: 1.830vw;
+}
+.table_heading {
+  display: flex;
+  margin: 0;
+  font: normal normal normal 0.878vw/1.318vw Poppins;
+  color: #3d3d3d;
+  width: 100%;
+  padding: 0;
+  padding-bottom: 0.5%;
+  border-bottom: 0.146vw solid #e5d7d7;
+}
+.product_image {
+  width: 7.540vw;
+  height: auto;
+  margin-left: 1%;
+  text-align: center;
+}
+.product_Name {
+  width: 15.227vw;
+  height: auto;
+  margin-left: 1%;
+}
+.product_avail {
+  width: 16.837vw;
+  height: auto;
+  text-align: center;
+  margin-left: 0.5%;
+}
+.product_code {
+  width: 10.249vw;
+  height: auto;
+  text-align: center;
+  margin-left: 0.5%;
+}
+.product_price {
+  width: 10.249vw;
+  height: auto;
+  text-align: center;
+  margin-left: 0.5%;
+}
+.product_quantity {
+  width: 10.249vw;
+  height: auto;
+  text-align: center;
+}
+.product_subtotal {
+  width: 10.249vw;
+  height: auto;
+  text-align: center;
+  margin-left: 0.5%;
+}
+.table_heading1 {
+  display: flex;
+  margin-top: 1.2%;
+  margin-left: 1%;
+  color: #3d3d3d;
+  width: 99.4%;
+  height: 8.638vw;
+  padding: 0;
+}
+.product_image1 {
+  width: 7.540vw;
+  height: auto;
+}
+.product_image1 img {
+  width: 100%;
+  height: 100%;
+}
+.product_Name1 {
+  width: 15.227vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+  margin-top: 1.5%;
+}
+.product_para_1 {
+  height: auto;
+  width: 100%;
+  font: normal normal bold 0.878vw/1.318vw Poppins;
+  color: #3d3d3d;
+  margin: 0;
+}
+.product_para_2 {
+  font: normal normal normal 0.878vw/1.318vw Poppins;
+  color: #3d3d3d;
+  width: 100%;
+  height: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.product_para_3 {
+  text-decoration: underline;
+  font: normal normal normal 0.878vw/1.318vw Poppins;
+  color: #3d3d3d;
+  width: 100%;
+  cursor: pointer;
+  height: auto;
+}
+.product_avail1 {
+  width: 16.837vw;
+  height: auto;
+  text-align: center;
+  font: normal normal normal 0.878vw/1.318vw Poppins;
+  color: #00680a;
+  padding-top: 4%;
+}
+.product_code1 {
+  width: 10.249vw;
+  height: auto;
+  text-align: center;
+  margin-left: 0.5%;
+  font: normal normal bold 0.878vw/1.318vw Poppins;
+  color: #3d3d3d;
+  padding-top: 4%;
+}
+.product_price1 {
+  width: 10.249vw;
+  height: auto;
+  text-align: center;
+  margin-left: 0.5%;
+  padding-top: 4%;
+  font: normal normal normal 0.878vw/1.318vw Poppins;
+  font-weight: 500;
+  color: #3d3d3d;
+}
+.product_quantity1 {
+  width: 10.249vw;
+  display: flex;
+  height: auto;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-left: 0.5%;
+  padding-top: 4%;
+}
+#minus_icon {
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.1vw;
+}
+.product_quant_para {
+  font: normal normal normal 0.878vw/1.318vw Poppins;
+  color: #3d3d3d;
+  font-weight: 600;
+}
+#add_icon {
+  cursor: pointer;
+  font-size: 1.2vw;
+}
+.product_subtotal1 {
+  width: 10.249vw;
+  height: auto;
+  text-align: center;
+  display: flex;
+  padding-top: 4%;
+  padding-left: 2%;
+  justify-content: space-evenly;
+}
+.product__sub_para {
+  font: normal normal normal 0.878vw/1.318vw Poppins;
+  color: #3d3d3d;
+  font-weight: 600;
+}
+#closeIcon {
+  font-size: 1.2vw;
+  color: #f80000;
+  cursor: pointer;
+}
+.button_box_1 {
+  display: flex;
+  width: 95%;
+  height: 2.782vw;
+  justify-content: space-between;
+  margin-top: 2%;margin-bottom: 2%;
+}
+#continue_shopping {
+  width: 12.445vw;
+  height: 100%;
+  background: #08e5a9 0% 0% no-repeat padding-box;
+  font: normal normal normal 0.878vw/1.318vw Poppins;
+  font-weight: medium;
+  border: 0.007vw solid white;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+}
+#cartUpdate {
+  width: 12.445vw;
+  height: 100%;
+  cursor: pointer;
+  outline: none;
+  background: #e6ff00 0% 0% no-repeat padding-box;
+  font: normal normal normal 0.878vw/1.318vw Poppins;
+  color: #3d3d3d;
+  font-weight: medium;
+  border: 0.007vw solid white;
+}
+.buttons_cart_continue{
+  height: auto;
+  width: 45vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4%;
+  margin-left: 25vw;
+}
+@media (max-width:768px){
+  .No_of_product {
+    margin-left: 4.685vw;
+    margin-top: 1.5vw;
+    font: normal normal normal 2.2vw/2.5vw Poppins;
+  }
+.product_Name {
+  width: auto;
+  padding-right: 8vw;
+}
+
+.product_avail{
+  padding-top: 0.5vw;
+}
+
+.product_price {
+  width: 16.249vw;
+  padding-top: 0.5vw;
+}
+
+.product_quantity {
+  width: 10vw;
+  padding-top: 0.5vw;
+  padding-right: 1vw;
+}
+
+.product_subtotal {
+  width: 15.249vw;
+  padding-top: 0.5vw;
+}
+.product_para_1{
+  font-size: 1.5vw;
+  padding-bottom: 0.5vw;
+}
+
+.product_para_2{
+  font-size: 1.2vw;
+  padding-bottom: 0.5vw;
+}
+
+.product_para_3{
+  font-size: 1.2vw;
+}
+
+.product_avail1{
+  font-size: 1.5vw;
+}
+
+.product_price1{
+  font-size: 1.6vw;
+  margin-left: 3.5vw;
+}
+.product_quantity1{
+  margin-left: 2vw;
+}
+#minus_icon{
+  font-size: 1.8vw;
+  margin-top: -0.5vw;
+}
+
+.product_quant_para{
+  font-size: 1.5vw;
+}
+#add_icon{
+  font-size: 2vw;
+  margin-top: -0.5vw;
+}
+
+.product_subtotal1{
+  margin-left: 3vw;
+}
+
+.product__sub_para{
+  font-size: 1.5vw;
+  margin-top: -0.5vw;
+}
+
+#closeIcon{
+  font-size: 1.5vw;
+  margin-top: -0.2vw;
+}
+
+#continue_shopping {
+  width: 20vw;
+  height: 4vw;
+  margin-bottom: 1vw;
+  background: #08e5a9 0% 0% no-repeat padding-box;
+  font: normal normal normal 1.6vw/1.318vw Poppins;
+  color: black;
+}
+.total_head_no{
+  height: 4.5vw;
+}
+.total_head_no p{
+  color: black;
+  font-size: 1.7vw;
+  margin-top: 0.9vw;
+  margin-left: 0.5vw;
+}
+
+.button_box_1{
+  height: auto;
+}
+
+  .table_heading{
+    font-size: 2vw;
+  }
+}
+@media (max-width:425px){
+  .table_heading1{
+    width: auto;
+    height: 17vw;
+  }
+
+  .product_image1{
+    width: 17vw;
+  }
+
+  .product_Name1{
+    width: 30vw;
+  }
+  #continue_shopping {
+    width: 100%;
+    height: 10vw;
+    margin-bottom: 1vw;
+    background: #08e5a9 0% 0% no-repeat padding-box;
+    font: normal normal normal 4vw/1.318vw Poppins;
+    color: white;
+  }
+  .buttons_cart_continue{
+    height: auto;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 4%;
+    margin-bottom: 5vw;
+    margin-left: 3vw;
+  }
+  .No_of_product{
+    width: 50%;
+    height: auto;
+    margin-left: 4.685vw;
+    margin-top: 2.512vw;
+    font: normal normal normal 3.7vw/4vw Poppins;
+    color: #3d3d3d;
+  }
+
+  .total_head_no{
+    height: 8vw;
+  }
+
+  .total_head_no p{
+    font: normal normal normal 3.65vw/1.684vw Poppins;
+    padding-top: 2.2vw;
+    padding-left: 1vw;
+  }
+  .product_image{    
+    width: 20vw;
+    height: auto;
+    margin-left: 1%;
+    padding-right: 1vw;
+    text-align: left;
+}
+.product_Name{
+  width:25vw;
+  padding-right: 1vw;
+}
+.table_heading{
+  font: normal normal normal 1vw/1.318vw Poppins;
+
+}
+.product_para_1{
+  font:normal normal bold 2.9vw/3.2vw Poppins;
+  height: 4vw;
+}
+.product_para_2{
+  font:normal normal normal 2.75vw/3vw Poppins;
+  height: 6.5vw;
+}
+.product_para_3{
+  text-decoration: underline;
+    font: normal normal normal 2.2vw/2.4vw Poppins;
+    color: #3d3d3d;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 1vw;
+    height: 4vw;
+}
+.product_price1{
+  width: 20vw;
+  font: normal normal normal 2.75vw/1.318vw Poppins;
+}
+
+.product_avail1{
+  width: 20vw;
+  font: normal normal normal 2.75vw/1.318vw Poppins;
+    color: #00680a;
+    padding-top: 4%;
+}
+.product_code1{
+  width: 15vw;
+  margin-left: 2.5%;
+  font: normal normal bold 2.75vw/1.318vw Poppins;
+}
+
+.product_quantity1 {
+  width: 20vw;
+  padding-top: 5vw;
+  margin-left: 7vw;
+}
+
+#minus_icon{
+  font-size: 2.5vw;
+}
+
+.product_quant_para{
+  font-size: 2.75vw;
+  padding-top: 1vw;
+}
+
+#add_icon{
+  font-size: 2.5vw;
+}
+.product_subtotal1{
+  width: 25vw;
+}
+
+.product__sub_para{
+  font-size: 2.75vw;
+}
+#closeIcon{
+  font-size: 3vw;
+  margin-top: -1vw;
+}
+
+.product_avail{
+  width: 25vw;
+  margin-left: 0vw;
+}
+.product_price{
+  width: 25vw;
+  margin-left: 0vw;
+}
+
+.product_quantity{
+  width: 25vw;
+}
+
+.product_subtotal{
+  width: 25vw;
+  padding-right: 8vw;
+}
+}

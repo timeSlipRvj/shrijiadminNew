@@ -1,0 +1,235 @@
+.goblog {
+  width: auto;
+  height: 1.537vw;
+  margin-top: 2.416vw;
+  margin-left: 6.442vw;
+  text-decoration: underline;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #3d3d3d;
+  display: flex;
+  cursor: pointer;
+}
+.goblog p {
+  margin: 0 0.805vw;
+}
+#blog_icon {
+  margin-top: 0.366vw;
+}
+.blog_individual_box {
+  width: 88.287vw;
+  margin-left: 7.028vw;
+  margin-top: 0.732vw;
+  height: auto;
+  display: flex;
+}
+.inner_box_blogs_one {
+  width: 62.592vw;
+  height: auto;
+  margin-top: 0.952vw;
+}
+.inner_box_blogs_two {
+  margin-left: 3.66vw;
+  width: 22.035vw;
+  height: auto;
+}
+
+.first_blog_one_comp {
+  display: flex;
+  height: auto;
+  width: 62.592vw;
+  justify-content: space-between;
+}
+.first_heading_blog_box_one {
+  width: 59.444vw;
+  height: auto;
+  font: normal normal normal 1.83vw/2.782vw Poppins;
+  font-weight: 600;
+  color: #3d3d3d;
+  margin-top: 0;
+  margin-bottom: auto;
+}
+#info_icon_dot {
+  font-size: 1.7vw;
+  color: #7d7d7d;
+}
+.first_blog_second_component {
+  width: 62.592vw;
+  justify-content: space-between;
+  display: flex;
+  height: 1.537vw;
+}
+.first_blog_second_component p {
+  margin-top: 0;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #9d9d9d;
+  font-weight: 300;
+}
+.image_blog_individual {
+  width: 54.246vw;
+  height: 21.01vw;
+  margin-top: 1.171vw;
+  margin-left: 3.66vw;
+}
+.para_individual_blog {
+  width: 62.592vw;
+  height: auto;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #3d3d3d;
+  font-weight: 200;
+  margin-top: 2.343vw;
+}
+.Recommend_blogs {
+  width: 22.035vw;
+  height: 1.537vw;
+  font: normal normal bold 1.098vw/1.684vw Poppins;
+  color: #3d3d3d;
+  margin: 0;
+  text-align: center;
+}
+.blogcard_individual {
+  width: 20.205vw;
+  margin-top: 1.537vw;
+  height: auto;
+  margin-left: 0.805vw;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.blog_main_1 {
+  width: 22.035vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 0.073vw;
+  margin-top: 1.098vw;
+}
+.buttons_blog {
+  width: 28.624vw;
+  margin-left: 25.183vw;
+  margin-top: 2.562vw;
+  height: 2.782vw;
+  display: flex;
+  justify-content: space-between;
+}
+.button_blog_one {
+  width: 12.445vw;
+  height: 2.782vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.146vw solid #08e5a9;
+  font: normal normal normal 0.878vw/1.318vw Poppins;
+  color: #08e5a9;
+  cursor: pointer;
+  outline: none;
+}
+.button_blog_two {
+  width: 12.445vw;
+  height: 2.782vw;
+  background: #1d1d1d 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  font: normal normal normal 0.878vw/1.318vw Poppins;
+  color: #ffffff;
+  cursor: pointer;
+  border: #1d1d1d;
+  outline: none;
+}
+.first_blog_second_component_views {
+  display: flex;
+  height: auto;
+  width: 62.592vw;
+  margin-top: 1%;
+}
+.views_on_blog {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: auto;
+  font: normal normal 200 1.098vw/1.684vw Poppins;
+  color: #9d9d9d;
+  margin-left: 0.5%;
+}
+#eye {
+  font-size: 1.3vw;
+  margin-top: 0.146vw;
+  cursor: pointer;
+  color: #7e7c7c;
+}
+@media(max-width:768px){
+  .goblog{
+    font-size: 1.6vw;
+  }
+  
+  .button_blog_one{
+    height: 4.5vw;
+    width: 20vw;
+    font-size: 1.6vw;
+  }
+
+  .button_blog_two{
+    height: 4.5vw;
+    width: 20vw;
+    font-size: 1.6vw;
+  }
+}
+@media(max-width:425px){
+  .goblog{
+    font: normal normal normal 2.9vw/1.684vw Poppins;
+    margin-left: 3vw;
+  }
+  #eye
+  {
+    font-size: 2vw;
+  }
+  .views_on_blog{
+    margin-top: 2.2px;
+    font: normal normal 200 1.3vw/1.684vw Poppins;
+  }
+  .first_blog_second_component p{
+    font: normal normal normal 1.2vw/1.684vw Poppins;
+  }
+
+  .inner_box_blogs_two{
+    display: none;
+  }
+  .inner_box_blogs_one{
+    width: 100%;
+  }
+  .first_blog_one_comp{
+    width: 100%;
+  }
+  .first_heading_blog_box_one{
+    width: 77.444vw;
+  }
+  .first_blog_second_component{
+    width: 100%;
+  }
+  .image_blog_individual{
+    width: 77.246vw;    height: 24vw;
+  }
+  .para_individual_blog{
+    text-align: justify;    font: normal normal 100 1.2vw/1.684vw Poppins;
+    width: 98%;
+  }
+  .buttons_blog{
+    
+    height: auto;
+    margin-bottom: 2vw;
+    margin-left: 34.183vw;
+    width: 32.624vw;
+  }
+
+  .button_blog_one{
+    height: 10vw;
+    width: 90vw;
+    font-size: 4vw;
+    margin-left: 2vw;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+  }
+
+  .button_blog_two{
+    height: 10vw;
+    width: 90vw;
+    font-size: 4vw;
+    margin-left: 2vw;
+    margin-bottom: 5vw;
+  }
+}

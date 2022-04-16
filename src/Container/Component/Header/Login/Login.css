@@ -1,0 +1,347 @@
+.modal-backdrop {
+  z-index: 1;
+}
+.modal-content {
+  margin-top: 6vw;
+  /* width: 77%;
+    margin-left: 5vw; */
+}
+.imagevl {
+  padding-left: 0;
+  padding-right: 0;
+  cursor: pointer;
+  font: normal normal normal 0.878vw/1.061vw Poppins;
+  margin-top:0.6vw;
+}
+.modalPadding {
+  padding: 0;
+}
+.logoval {
+  height: auto;
+  width: 100%;
+  /* margin-left: 13vw; */
+  text-align: center;
+  font-weight: 900;
+  font-family: poppins;
+  font-size: 1.5vw;
+  color: #08e5a9;
+}
+#profile_icon{
+  color: #08E5A9;
+}
+.modal-header {
+  border-bottom: none;
+}
+.promiseword {
+  /* margin-left: 6vw; */
+  text-align: center;
+  font-family: poppins;
+  font-size: 0.8vw;
+  margin-bottom: 0;
+}
+.signval {
+  /* margin-left: 12.5vw; */
+  justify-content: center;
+  color: #5d5d5d;
+}
+.googleface {
+  display: flex;
+  flex-direction: column;
+  border-top: 0;
+  padding-left: 0;
+  /* width:35vw */
+}
+.orWord {
+  font-family: poppins;
+  font-size: 0.8vw;
+}
+.signgoogle {
+  background-color: #f80000;
+  color: white;
+  padding: 0.8vw;
+  width: 20.425vw;
+  margin-left: 1vw;
+  margin-top: 1vw;
+  font-size: 0.9vw;
+  font-family: poppins;
+}
+.signface {
+  background-color: #0063ae;
+  color: white;
+  padding: 0.8vw;
+  width: 20.425vw;
+  margin-left: 1vw;
+  margin-top: 1vw;
+  font-size: 0.9vw;
+  font-family: poppins;
+}
+.signinput {
+  width: 20.425vw;
+  border: 0.073vw solid #08e5a9;
+  height: 2.782vw;
+  padding: 0.732vw;
+  font: normal normal normal 0.878vw/1.318vw Poppins;
+  cursor: pointer;
+  outline: none;
+  /* margin-left: 7vw; */
+  margin-bottom: 2%;
+}
+.forgotbutton {
+  background-color: white;
+  width: auto;
+  height: auto;
+  font-family: poppins;
+  font-size: 0.8vw;
+  border: none;
+  /* margin-left: 20vw; */
+  width: 100%;
+  cursor: pointer;
+}
+.signButton {
+  padding: 2%;
+  font-size: 0.9vw;
+  font-family: poppins;
+  padding: 0.8vw;
+  width: 10vw;
+  /* margin-left: 12.5vw; */
+  margin-top: 1vw;
+  color: white;
+  background-color: #08e5a9;
+  border: none;
+}
+.signButton:hover {
+  color: black;
+}
+
+.social_signin{
+  text-align: center;
+}
+@media (max-width: 768px){
+  .imagevl {
+    font: normal normal normal 1.1vw/1.061vw Poppins;
+    margin-top: -0.2vw;
+  }
+  .login .modal-content{
+    width: 65vw;
+    height: 40%;
+    margin-left: 2.5vw;    
+    padding-left: 1vw;
+    margin-top: 12vw;
+  }
+
+  .logoval{
+    font-size: 3.5vw;
+    margin-left: 0vw;
+  }
+
+  .promiseword{
+    font-size: 2vw;
+    margin-left: 2vw;
+  }
+
+  .signval{
+    /* margin-left: 18vw; */
+    margin-top: 1vw;
+  }
+
+  .signval .nav-link{
+    font-size: 2vw;
+    margin-right: 4vw;
+  }
+
+  .signinput{
+    width: 25vw;
+    height: 5vw;
+    /* margin-left: 3vw; */
+    margin-bottom: 1.75vw;
+    font-size: 1.75vw;
+    padding-left: 2.5vw;
+  }
+
+  .forgotbutton{
+    font-size: 1.6vw;
+    /* margin-left: 40vw; */
+  }
+
+  .signButton{
+    width: 24.5vw;
+    /* margin-left: 18vw; */
+    margin-top: 2vw;
+    height: 5vw;
+    font-size: 2vw;
+  }
+
+  .orWord{
+    font-size: 2vw;
+  }
+
+  .googleface{
+    padding-left: 1vw;
+    width: 60vw;
+  }
+
+  .social_signin{
+    flex-direction: row;
+  }
+
+  .signface{
+    font-size: 1.75vw;
+    height: 5vw;
+    width: 25vw;
+  }
+  .signgoogle{
+    font-size: 1.75vw;
+    height: 5vw;
+    width: 25vw;
+    margin-right: 1vw;
+    margin-left: 2.5vw;
+  }
+
+  #profile_icon{
+    font-size: 3.4vw;
+    margin-left: 0.975vw;
+    color: #08E5A9;
+
+  }
+}
+
+@media (max-width: 550px) {
+  .imagevl {
+    font: normal normal normal 1.25vw/1.061vw Poppins;
+  }
+
+  .login .modal-content{
+    margin-left: 15vw; 
+  }
+  #profile_icon{
+    font-size: 5.1vw;
+    margin-left: 1vw;
+    color: #08E5A9;
+  }
+}
+@media (max-width: 425px) {
+  .imagevl {
+    font: normal normal normal 1.2vw/1.061vw Poppins;
+    margin-top: 0vw;
+  }
+  .login .modal-content {
+    width: 95vw;
+    margin-left: 1vw;
+    height: 80%;
+    margin-top: 15vw;
+  }
+
+  .modal-header{
+    padding-top: 10px;
+  }
+
+  .logoval{
+    font-size: 6vw;
+    margin-left: 0vw;
+  }
+
+  .promiseword{
+    font-size: 2.7vw;
+    margin-left: 4vw;
+  }
+
+  .signval{
+    /* margin-left: 27vw; */
+    margin-top: 3vw;
+  }
+
+  .signval .nav-link{
+    font-size: 3.2vw;
+    margin-right: 8vw;
+  }
+
+  .modal_signin_input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .signinput{
+    width: 80vw;
+    height: 9vw;
+    /* margin-left: 5vw; */
+    margin-bottom: 3vw;
+    font-size: 3vw;
+    padding-left: 2.5vw;
+  }
+
+  .signup_signinput_box{
+    flex-direction: row;
+  }
+  .signup_signinput{
+    width: 37.5vw;
+  }
+
+  .forgotbutton{
+    font-size: 2.5vw;
+    /* margin-left: 45vw; */
+  }
+
+  .signButton{
+    width: 80vw;
+    /* margin-left: 5vw; */
+    margin-top: 1vw;
+    height: 10vw;
+    font-size: 4vw;
+  }
+
+  .orWord{
+    font-size: 3vw;
+  }
+
+  .social_signin{
+    flex-direction: row;
+  }
+  .signface{
+    font-size: 3.5vw;
+    height: 8vw;
+    width: 30vw;
+  }
+  .signgoogle{
+    font-size: 3.5vw;
+    height: 8vw;
+    width: 30vw;
+    margin-right: 3vw;
+    margin-left: 2.5vw;
+  }
+  .btn-close{
+    font-size: 3.5vw;
+  }
+  .googleface{
+    padding-left: 4vw;
+    width: 85vw;
+  }
+  #profile_icon{
+    font-size: 6.1vw;
+    margin-left: 1.45vw;
+    color: #08E5A9;
+  }
+
+  .filterbox{
+    width: 40vw;
+  }
+}
+
+@media (max-width: 375px) {
+  .imagevl {
+    font: normal normal normal 1.25vw/1.061vw Poppins;
+  }
+
+  #profile_icon{
+    font-size: 6.5vw;
+    color: #08E5A9;
+
+  }
+}
+
+@media (min-width: 769px) and (max-width:1200px ) {
+  .login .modal-content{
+    width: 73%;
+    margin-left: 6vw;
+  }
+}

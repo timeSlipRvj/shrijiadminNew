@@ -1,0 +1,108 @@
+.outerComingPage {
+  width: 100vw;
+  height: 50vw;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+.outerComingPage img {
+  width: 50vw;
+  height: 25.4vw;
+  opacity: 1;
+}
+.details_of_comingSoon {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  align-items: center;
+}
+.name__ {
+  margin-left: 39.239vw;
+  text-align: center;
+  width: 20.498vw;
+  font: normal normal normal 1.171vw/1.83vw Poppins;
+  color: #ffffff;
+  text-transform: lowercase;
+  padding-top: 1.098vw;
+  border-radius: 0 0 4.1vw 4.1vw;
+  height: 3.734vw;
+  background: #08e5a9 0% 0% no-repeat padding-box;
+  box-shadow: 0 0.22vw 0.439vw #00000029;
+}
+.para_comingSoon {
+  width: 60%;
+  font: normal normal 200 0.878vw/1.83vw Poppins;
+  color: #ffffff;
+  height: 1.684vw;
+  padding-left: 4.685vw;
+}
+.comingsoonheading {
+  width: auto;
+  color: #ffffff;
+  margin-left: 38.653vw;
+  text-align: center;
+  width: auto;
+  color: #ffffff;
+  height: auto;
+  margin-left: 0;
+  margin-top: 12.761vw;
+  margin-bottom: 0;
+  font: normal normal bold 6.223vw/4.466vw Poppins;
+  text-align: center;
+  animation: glow1 1.3s ease-in-out infinite alternate;
+}
+
+@keyframes glow1 {
+  from {
+    text-shadow: 0 0 2px transparent, 0 0 2px #fff, 0 0 30px transparent,
+      0 0 40px transparent, 0 0 50px transparent, 0 0 60px transparent,
+      0 0 70px transparent;
+  }
+
+  to {
+    text-shadow: 0 0 7px #fff, 0 0 7px white, 0 0 30px transparent,
+      0 0 40px transparent, 0 0 50px transparent, 0 0 60px transparent,
+      0 0 70px transparent;
+  }
+}
+
+.construct_icon {
+  color: white;
+  font-size: 5.124vw;
+  margin-left: 47.584vw;
+  margin-top: 1.171vw;
+}
+.para_comingSoon2 {
+  width: 34.114vw;
+  font: normal normal 200 0.878vw/1.83vw Poppins;
+  color: #ffffff;
+  height: auto;
+  text-align: center;
+  margin-top: 1.757vw;
+  margin-left: 32.943vw;
+}
+.SocialMedia_links {
+  margin-left: 37.701vw;
+  margin-top: 13.786vw;
+  width: 21.816vw;
+}
+.SocialMedia_links ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.SocialMedia_links ul li {
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1.83vw;
+}
+.SocialMedia_links ul li:hover {
+  margin-top: -0.732vw;
+}
+.secondBoxComing {
+  margin-left: 28.111vw;
+  margin-top: 0.586vw;
+  display: flex;
+  width: 71%;
+}
